@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateEventActivity">
+
+    <EditText
+        android:id="@+id/uTitleEd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Story title"
+        android:paddingLeft="10dp"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/ic_title_black_24dp"/>
+
+    <TextView
+        android:id="@+id/uTitleErrorTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textColor="#ff2600"
+        android:textStyle="italic"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/uEventDateEd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Story date"
+        android:paddingLeft="10dp"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/ic_date_range_black_24dp"/>
+
+    <TextView
+        android:id="@+id/uDateErrorTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textColor="#ff2600"
+        android:textStyle="italic"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/uEventDescriptionEd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:gravity="left|top"
+        android:lines="8"
+        android:maxLines="10"
+        android:hint="Write your story here..."
+        android:scrollbars="vertical" />
+    <TextView
+        android:id="@+id/uDescriptionErrorTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textColor="#ff2600"
+        android:textStyle="italic"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:background="#f74b08"
+        android:onClick="updateEventAction"/>
+
+</LinearLayout>

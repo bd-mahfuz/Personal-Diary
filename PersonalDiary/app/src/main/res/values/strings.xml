@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Personal Diary</string>
+
+
+    <string name="info_title">To Secure Your App Use Pin Code.</string>
+    <string name="info_des">Your Default Code is: 1234.
+        But If you want to change this pin code, you have to Unlock first
+        with this code and then change the code from setting menu.
+    </string>
+
+    <array name="quotesList">
+        <item>"Success is not final; failure is not fatal: It is the courage to continue that
+            counts."
+        </item>
+        <item>"It is better to fail in originality than to succeed in imitation."</item>
+        <item>"The road to success and the road to failure are almost exactly the same."</item>
+        <item>"Success usually comes to those who are too busy to be looking for it."</item>
+        <item>"Opportunities don't happen. You create them."</item>
+        <item>"Don't be afraid to give up the good to go for the great."</item>
+        <item>"I find that the harder I work, the more luck I seem to have."</item>
+        <item>"Try not to become a man of success. Rather become a man of value."</item>
+        <item>"Never give in except to convictions of honor and good sense."</item>
+        <item>"Stop chasing the money and start chasing the passion."</item>
+        <item>"If you are not willing to risk the usual, you will have to settle for the
+            ordinary."
+        </item>
+        <item>"The ones who are crazy enough to think they can change the world, are the ones that
+            do."
+        </item>
+    </array>
+    <array name="quotesOwner">
+        <item>Winston S. Churchill</item>
+        <item>Herman Melville</item>
+        <item>Colin R. Davis</item>
+        <item>Henry David Thoreau</item>
+        <item>Chris Grosser</item>
+        <item>John D. Rockefeller</item>
+        <item>Thomas Jefferson</item>
+        <item>Albert Einstein</item>
+        <item>Winston Churchill</item>
+        <item>Tony Hsieh</item>
+        <item>Jim Rohn</item>
+        <item>Anonymous</item>
+    </array>
+
+</resources>
